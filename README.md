@@ -79,8 +79,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+Here’s a simple, step-by-step explanation of how to create an osTicket setup. I'll explain it in a straightforward way so it's easy to follow. Let’s break this into clear tasks:
+
+---
+
+### **1. Set Up the Virtual Machine in Azure**
+1. **Create a VM in Azure**:
+   - Go to Azure, create a **Windows 10** virtual machine with:
+     - Name: **osticket-vm**
+     - Size: **4 vCPUs** (this is like the computer’s brain capacity).
+     - Username: **labuser**
+     - Password: **osTicketPassword1!**
+   - Finish creating the VM.
+
+2. **Connect to the VM**:
+   - Download the **Remote Desktop (RDP)** file from Azure.
+   - Open it, log in using:
+     - Username: **labuser**
+     - Password: **osTicketPassword1!**
+
+---
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OPoPUs5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
